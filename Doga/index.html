@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  
+<link href='style.css' type='text/css' rel='stylesheet'>
+</head>
+<body>
+  
+ <script src="functions.js"></script>
+
+<form class='keret' name='teglalap'>
+
+
+	<h4>A téglalap</h4>
+
+	<b>Kiindulási adatok:</b><br>
+
+
+	<span><i><b>'a'</b></i> oldal hossza:  </span><input name='a' size=5> cm <br>
+    <span><i><b>'b'</b></i> oldal hossza:  </span><input name='b' size=5> cm <br>
+
+	<span>  </span>                              <input type=button value='Számol' onclick=' szamol(); '>
+
+
+	<hr>
+
+
+	<b>Eredmények:</b><br>
+
+
+	<span>Kerület: </span>              <input name='K' size=10 readonly> cm <br>
+	<span>Terület: </span>              <input name='T' size=10 readonly> cm<sup>2</sup>
+
+
+</form>
+
+
+<form class='keret' name='kor'>
+
+	<h4> A kör </h4>
+
+	<b>Adatok:</b><br>
+
+
+	<span>A kör sugara:   </span> <input name='r' size=7 onfocus=' torol(); ' onblur=' korszamol(1); '> cm <br>
+	<span>A kör kerülete: </span> <input name='K' size=7 onfocus=' torol(); ' onblur=' korszamol(2); '> cm <br>
+	<span>A kör területe: </span> <input name='T' size=7 onfocus=' torol(); ' onblur=' korszamol(3); '> cm<sup>2</sup> <br><br>
+
+
+
+	<span> </span>                <input type=button value='Számol'>
+
+
+</form>
+
+
+
+
+
+
+

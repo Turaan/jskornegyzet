@@ -1,0 +1,43 @@
+
+		form.keret
+		{
+			width: 600px;
+			margin: 20px auto;
+			padding: 20px 30px;
+			border: solid 1px #BBF;
+			border-radius:10px;
+			background-color:#EEF;
+			line-height:30px;
+			color: #200040;
+			font-size: 15px;
+		}
+
+		form.keret h4
+		{
+			width: 150px;
+			margin: 0 auto;
+			padding: 0;
+			background-color: #F4F4FF;
+			border-radius: 10px;
+			text-align: center;
+			color: #200040;
+			font-size: 15px;
+		}
+
+		form.keret input
+		{
+			border: solid 1px #88C;
+			padding: 2px 8px;
+			border-radius: 4px;
+			text-align: right;
+			color: #200040;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		form.keret span
+		{
+			display: inline-block;
+			width: 120px;
+			padding-left:  96px;
+		}
